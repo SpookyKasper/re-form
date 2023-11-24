@@ -1,7 +1,9 @@
 <h1>Users</h1>
 
 
-<%= @users.each do |user| %>
-  <%= user.username %>
-  <%= user.email %>
+<% @users.each do |user| %>
+  <%= user.username %> <br>
+  <%= user.email %> <br>
+  <%= user.password %> <br>
+  <br>
 <% end %>
